@@ -179,7 +179,7 @@ $(document).ready(function () {
 (function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyC2BavOH_xdf59FWlOBRPag1Z-vUBCO4pc');
+        include('https://maps.google.com/maps/api/js?key=AIzaSyC2BavOH_xdf59FWlOBRPag1Z-vUBCO4pc');
         include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {
