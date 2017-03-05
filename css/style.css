@@ -834,8 +834,9 @@ header .list01 {
   font-size: 50px;
   line-height: 50px;
   letter-spacing: 2.5px;
-  font-family: 'Damion', cursive;
+  /*font-family: 'Damion', cursive;*/
   color: #01b9af;
+  font-weight: bold;
 }
 .brand .brand-icon {
   position: relative;
