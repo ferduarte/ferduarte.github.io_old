@@ -1907,7 +1907,7 @@
 									t.animate({opacity:0},0).css({'bottom':'-'+thisH+'px'});
 									t.css('visibility','visible').delay((time/lMoveInContent)*(0.1*(ind-1))).animate({'bottom':'0',opacity:1},(time/lMoveInContent)*0.15,easeMove);
 								} else if(tClass.indexOf("fadeIn") != -1) {
-									t.animate({opacity:0},0).css('visibility','visible').delay((time/lMoveInContent)*(0.1*(ind-1))).animate({opacity:1},(time/lMoveInContent)*0.15,easeMove);
+									t.animate({opacity:0},0).css('visibility','visible').delay((time/lMoveInContent)*(0.1*(ind-1))).animate({opacity:0.7},(time/lMoveInContent)*0.15,easeMove);
 								} else {
 									t.css('visibility','visible');
 								}
